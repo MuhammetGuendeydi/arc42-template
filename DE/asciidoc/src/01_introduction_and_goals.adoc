@@ -1,53 +1,87 @@
 [[section-introduction-and-goals]]
 ==	Einführung und Ziele
 
-[role="arc42help"]
-****
-Beschreibt die wesentlichen Anforderungen und treibenden Kräfte, die bei der Umsetzung der Softwarearchitektur und Entwicklung des Systems berücksichtigt werden müssen.
-
-Dazu gehören:
-
-* zugrunde liegende Geschäftsziele,
-* wesentliche Aufgabenstellungen und
-* essenzielle fachliche Anforderungen an das System sowie
-* Qualitätsziele für die Architektur und
-* relevante Stakeholder und deren Erwartungshaltung.
-****
-
 === Aufgabenstellung
+*Was ist BEMS?*
+****
 
 [role="arc42help"]
-****
-.Inhalt
-Kurzbeschreibung der fachlichen Aufgabenstellung, treibenden Kräfte, Extrakt (oder Abstract) der Anforderungen.
-Verweis auf (hoffentlich vorliegende) Anforderungsdokumente (mit Versionsbezeichnungen und Ablageorten).
+* BEMS ist eine funktionsfähige und leicht bedienbare Applikation
+* BEMS dient zur Berechnung von Emissionen, welche bei Dienstflügen entstehen
+* BEMS dient zur Kompansation von Emissionen
 
-.Motivation
-Aus Sicht der späteren Nutzung ist die Unterstützung einer fachlichen Aufgabe oder Verbesserung der Qualität der eigentliche Beweggrund, ein neues System zu schaffen oder ein bestehendes zu modifizieren.
-
-.Form
-Kurze textuelle Beschreibung, eventuell in tabellarischer Use-Case Form.
-Sofern vorhanden, sollte die Aufgabenstellung Verweise auf die entsprechenden Anforderungsdokumente enthalten.
-
-Halten Sie diese Auszüge so knapp wie möglich und wägen Sie Lesbarkeit und Redundanzfreiheit gegeneinander ab.
 ****
 
+*Wesentliche Features:*
+
+****
+
+[role="arc42help"]
+* Vollständige Implementierung der Excel Datein
+* Vollständige Abspeicherung der Flüge
+* Vollständige Übersicht der getätigten Flüge
+* Mögliche Exportierung der Daten möglich
+
+****
 === Qualitätsziele
+Die folgende Tabelle beschreibt die zentralen Qualitätsziele von BEMS, wobei die Reihenfolge eine grobe Orientierung bezüglich der Wichtigkeit vorgibt.
+|===
+|Qualitätsziele |Motivation und Erläuterung
 
-[role="arc42help"]
-****
-.Inhalt
-Die Top-3 bis Top-5 der Qualitätsziele für die Architektur, deren Erfüllung oder Einhaltung den maßgeblichen Stakeholdern besonders wichtig sind.
-Gemeint sind hier wirklich Qualitätsziele, die nicht unbedingt mit den Zielen des Projekts übereinstimmen. Beachten Sie den Unterschied.
+|Einfach bedienbare Plattform
+|Da alle User nicht so fit mit dem Umgang mit PCs sind. Soll das System einfch zum bedienen sein
 
-.Motivation
-Weil Qualitätsziele grundlegende Architekturentscheidungen oft maßgeblich beeinflussen, sollten Sie die für Ihre Stakeholder relevanten Qualitätsziele kennen, möglichst konkret und operationalisierbar.
+|genauer Rechner
+|Da Emissionen sehr schädlich für unsere Umwelt sind, sollte man hier genau arbeiten und nicht mit ungenauen Werten
 
-.Form
-Tabellarische Darstellung der Qualitätsziele mit möglichst konkreten Szenarien, geordnet nach Prioritäten.
-****
+|Abspeicherung der Daten
+|Da die Daten nochmal überprüft werden müssen, müssen diese abgespeichert werden. Außerdem hat so jeder User die Möglichkeit seine getätigten Flüge anzuschauen
+
+|Einlese Funktion der App
+|Da in der Vergangenheit schon Flüge getätigt wurden, und diese übernommen werden sollen. Auch werden nicht alle Daten in das System eingegeben
+
+|Export Funktion der App
+|Da das Finanzministerium diese Daten braucht, muss es eine Export Funktion geben
+
+|Einfache Eingabe der Flugdaten
+|macht das für alle leichter
+
+|===
+
+Die Qualitätsszenarien in Abschnitt 10 konkretisieren diese Qualitätsziele und dienen insbesondere auch dazu ihre Erreichung zu bewerten.
+
 
 === Stakeholder
+
+
+|===
+|Wer?  |Bezug
+
+|Softwarearchitekten
+|Wollen wisse
+
+|Column 1, row 2
+|Column 2, row 2
+
+|Column 1, row 3
+|Column 2, row 3
+
+|Column 1, row 4
+|Column 2, row 4
+
+|Column 1, row 5
+|Column 2, row 5
+
+|Column 1, row 6
+|Column 2, row 6
+
+|Column 1, row 7
+|Column 2, row 7
+
+|Column 1, row 8
+|Column 2, row 8
+|===
+
 
 [role="arc42help"]
 ****
