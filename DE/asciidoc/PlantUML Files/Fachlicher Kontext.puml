@@ -1,0 +1,11 @@
+@startuml
+
+[BEMS]
+[Anna]
+[Datenbank]
+
+[BEMS] <- [Anna]
+[Datenbank] -> [BEMS]
+
+
+@enduml

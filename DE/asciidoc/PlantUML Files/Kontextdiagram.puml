@@ -1,0 +1,13 @@
+@startuml
+
+[BEMS]
+:Anna:
+[Datenbank]
+
+[Datenbank] -> [Rechner]
+[Rechner] -> [BEMS]
+[BEMS] <- Anna
+[BEMS] -> [Datenbank]
+
+
+@enduml

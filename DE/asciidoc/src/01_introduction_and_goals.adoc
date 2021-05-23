@@ -1,14 +1,16 @@
 [[section-introduction-and-goals]]
 ==	Einführung und Ziele
 
+Dieser Abschnitt führt in die Aufgabenstellung ein und stellt die Ziele dar, die BEMS verfolgt.
+
 === Aufgabenstellung
 *Was ist BEMS?*
 ****
 
 [role="arc42help"]
-* BEMS ist eine funktionsfähige und leicht bedienbare Applikation
+* BEMS ist eine Applikation
 * BEMS dient zur Berechnung von Emissionen, welche bei Dienstflügen entstehen
-* BEMS dient zur Kompansation von Emissionen
+* BEMS dient zur Kompensation von Emissionen
 
 ****
 
@@ -17,10 +19,10 @@
 ****
 
 [role="arc42help"]
-* Vollständige Implementierung der Excel Datein
+* Vollständige Implementierung und Exportierung der Excel Datein
 * Vollständige Abspeicherung der Flüge
 * Vollständige Übersicht der getätigten Flüge
-* Mögliche Exportierung der Daten möglich
+* Funktionsfähige und leicht bedienbare Applikation
 
 ****
 === Qualitätsziele
@@ -57,30 +59,27 @@ Die Qualitätsszenarien in Abschnitt 10 konkretisieren diese Qualitätsziele und
 |===
 |Wer?  |Bezug
 
-|Softwarearchitekten
-|Wollen wisse
+|Robin
+|Product Owner
 
-|Column 1, row 2
+|Lenk
+|Auftraggeber
+Muss wissen wie das System funktionieren
+
+|Developer
+|Entwickeln das System
+
+|Anna
+|Benutzt das System
+
+|Finanzminestrium
+|Auftraggeber
+
+|Klimaschutz
 |Column 2, row 2
-
-|Column 1, row 3
-|Column 2, row 3
-
-|Column 1, row 4
-|Column 2, row 4
-
-|Column 1, row 5
-|Column 2, row 5
-
-|Column 1, row 6
-|Column 2, row 6
-
-|Column 1, row 7
-|Column 2, row 7
-
-|Column 1, row 8
-|Column 2, row 8
 |===
+
+
 
 
 [role="arc42help"]

@@ -1,6 +1,10 @@
 [[section-building-block-view]]
 == Bausteinsicht
 
+Dieser Abschnitt beschreibt die Zerlegung von BEMS in Module, wie sie sich auch in der Paketstruktur des Java-Quelltextes widerspiegelt. Module der ersten Zerlegungsebene bezeichnen wir in BMES als Subsysteme. Die → Bausteinsicht, Ebene 1 stellt sie inklusive ihrer Schnittstellen dar.
+
+Für das Subsystem Calculator enthält dieser Überblick auch eine detailliertere Zerlegung in → Ebene 2
+
 [role="arc42help"]
 ****
 .Inhalt

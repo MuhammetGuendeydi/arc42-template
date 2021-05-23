@@ -1,17 +1,75 @@
 [[section-architecture-constraints]]
 == Randbedingungen
 
+Beim Lösungsentwurf waren zu Beginn verschiedene Randbedingungen zu beachten, sie wirken in der Lösung fort. Dieser Abschnitt stellt sie dar und erklärt auch – wo nötig – deren Motivation.
+
+=== Technische Randbedingungen
 [role="arc42help"]
 ****
-.Inhalt
-Randbedingungen und Vorgaben, die ihre Freiheiten bezüglich Entwurf, Implementierung oder Ihres Entwicklungsprozesses einschränken.
-Diese Randbedingungen gelten manchmal organisations- oder firmenweit über die Grenzen einzelner Systeme hinweg.
 
-.Motivation
-Für eine tragfähige Architektur sollten Sie genau wissen, wo Ihre Freiheitsgrade bezüglich der Entwurfsentscheidungen liegen und wo Sie Randbedingungen beachten müssen.
-Sie können Randbedingungen vielleicht noch verhandeln, zunächst sind sie aber da.
+|===
+|Randbedingung |Erläuterungen, Hintergrund
 
-.Form
-Einfache Tabellen der Randbedingungen mit Erläuterungen.
-Bei Bedarf unterscheiden Sie technische, organisatorische und politische Randbedingungen oder übergreifende Konventionen (beispielsweise Programmier- oder Versionierungsrichtlinien, Dokumentations- oder Namenskonvention).
+|Internetzugang
+|Eine Applikation auf die man im Internet zugreifen kann
+
+|Zugängliche Datenbank
+|Eine Datenbank die frei zugänglich ist
+
+|Umsetzung in Java
+|Das Programm soll in Java geschrieben sein
+
+|Ein/Auslesen von CSV
+|Datein aus Excel benutzen können
+
+|Ein User hat seinen eigenen Account
+|Eigene Daten ablesen
+
+|Berechnung der Emissionen
+|Mit angegebenen Daten möglichst genau die Daten berechnen
+|===
+
+****
+
+=== Orginasatorische Randbedingungen
+
+[role="arc42help"]
+****
+
+|===
+|Randbedingung |Erläuterungen, Hintergrund
+
+|Team
+|Das Team ist zusammengesetzt aus interfakultären Studenten
+
+|Agile Transformation
+|Das Projekt muss nach dem agile Transformation aufgebaut ist
+
+|Zeitplan
+|Ein Semester?
+
+|Vorgehensmodell
+|Entwicklung risikogetrieben, iterativ und inkrementell. Zur Dokumentation der Architektur kommt arc42 zum Einsatz. Eine Architekturdokumentation gegliedert nach dieser Vorlage ist zentrales Projektergebnis.
+
+|Verwaltung und Kommunikation des Teams
+|Nuclino, Miro, GitLab
+
+|===
+
+****
+
+=== Konventionen
+
+[role="arc42help"]
+****
+
+|===
+|Konvention |Erläuterungen, Hintergrund
+
+|Architekturdokumentation
+|Terminologie und Gliederung nach dem deutschen arc42-Template
+
+
+|===
+
 ****
