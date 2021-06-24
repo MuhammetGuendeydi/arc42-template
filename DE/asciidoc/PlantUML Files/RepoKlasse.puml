@@ -1,0 +1,18 @@
+@startuml
+class Repo {
+  Input()
+  Flight()
+  Airport()
+
+}
+
+class Controller {
+   InputController()
+   FlightController()
+   AirportController()
+}
+
+
+Controller <|-- Repo
+
+@enduml

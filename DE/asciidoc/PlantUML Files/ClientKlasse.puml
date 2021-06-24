@@ -1,0 +1,14 @@
+@startuml
+class Client {
+  GCD Calculator()
+  Emissionsrechner()
+
+}
+
+class Controller {
+   InputController()
+   FlightController()
+}
+
+Controller <|-- Client
+@enduml

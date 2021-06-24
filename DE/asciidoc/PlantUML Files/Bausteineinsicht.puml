@@ -1,0 +1,14 @@
+@startuml
+
+[Controller]
+[Repo]
+[Clients]
+[Modell]
+
+
+[Clients]-> [Repo]
+[Modell] -> [Repo]
+[Repo] -> [Controller]
+
+
+@enduml
