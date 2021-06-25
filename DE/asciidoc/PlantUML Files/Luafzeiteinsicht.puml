@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+BEMSBoard --> Client : Daten des gewünschten Fluges
+Client --> Controller: gibt Berchnete Daten weiter
+Repo --> Controller: Authentication Response
+Modell -->Repo : gibt Modell weiter
+Modell --> Controller: gibt Modell weiter
+
+@enduml
